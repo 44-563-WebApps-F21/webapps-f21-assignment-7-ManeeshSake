@@ -1,0 +1,81 @@
+p{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.a{
+    text-align: center;
+}
+h2:hover{
+    background-color:lightcoral;
+    color:rgb(240, 227, 240);
+}
+#main{
+    color:lightgray;
+    text-align: center;
+}
+#tries{
+        color:deepskyblue;
+        text-align: center;
+}
+#distance{
+    color:darkmagenta;
+    text-align: center;
+}
+div.container-fluid{
+    background-color:lavender;
+    text-align: center;
+}
+#target{
+    background-color:lavender;
+    text-align: center;
+    color:darkmagenta;
+}
+#countdown{
+    background-color:lavender;
+    text-align: center;
+    color: lightsalmon;
+}
+#form_input
+{
+    text-align: center;
+    color:darkseagreen;
+}
+#form-label{
+    text-align: left;
+    color:darkgreen;
+}
+#makenewdiv{
+    text-align: center;
+    color:orange;  
+}
+#popitem{
+    text-align: center;
+    color:red;  
+}
+#zap{
+    text-align: center;
+    color:orange;  
+}
+#uniqueHandler{
+    text-align: center;
+    color:yellow;  
+}
+
+.flex-container {
+    display: flex;  flex-direction:row;
+    background-color: red;
+}
+.flex-container > div {  /*div children of the flex container*/
+background-color: #f1f1f1; 
+margin: 10px;  padding: 20px;  font-size: 30px;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) { 
+   .flex-container{
+       flex-direction:column;
+       background-color: green;
+    }
+  }
