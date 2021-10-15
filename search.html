@@ -34,6 +34,7 @@ integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0Ec
         <p class="text-center">Click on the squares to search for wild life</p>
         <p id="tries"  >Number of tries is zero.</p>
         <p id="distance" >Distance is unknown</p>
+        <button onclick=reset()> reset</button>
     </div>
     <div class="container-fluid">
             <div class="d-flex justify-content-center">
@@ -148,7 +149,7 @@ integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0Ec
             distanceOfAnimal = "unknown"
             document.getElementById("distance").innerHTML = "Distance is " + distanceOfAnimal;
             for (var i = 0; i <= 23; i++) {
-                    document.getElementById(plant_pic_array[i]).src = "animal.jpg";
+                    document.getElementById(plant_pic_array[i]).src = "dirty.jpg";
             }
 
     }
